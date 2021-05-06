@@ -1,0 +1,56 @@
+.footer {
+
+    @include clearfix;
+
+    background-image: url('https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg');
+    background-position: bottom;
+    background-size: auto , 20rem;
+    background-repeat: no-repeat;
+
+    margin-top: 2rem;
+    padding-bottom: 20rem;
+
+    &__logo-box {
+        width: calc(100% / 4);
+        float: left;
+    }
+
+    &__logo {
+        max-width: 100%;
+    }
+
+    &__section-container {
+        @include clearfix;
+        width: calc(100% / 4 * 3);
+        float: right;
+
+    }
+
+    &__section {
+        width: calc(100% / 3);
+        float: left;
+
+        h3 {
+            font-size: 2.5rem;
+            color: $color-primary;
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            
+            li {
+
+                list-style-type: none;
+
+                &:not(:last-child) {
+                    margin-bottom: 1rem;
+                }
+            }
+
+        }
+
+
+
+    }
+
+}

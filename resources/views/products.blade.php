@@ -12,7 +12,7 @@
             <li>Tipo: {{ $pasta['tipo']}}</li>
             <li>Tempo di Cottura: {{ $pasta['cottura']}}</li>
             <li>Peso: {{ $pasta['peso']}} </li>
-            <li><p>{{ $pasta['descrizione']}}</p></li>
+            <li><p>{!! $pasta['descrizione'] !!}</p></li>
         </ul>
 
     </div>

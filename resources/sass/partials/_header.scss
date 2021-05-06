@@ -1,0 +1,54 @@
+.header {
+
+    margin-bottom: 2rem;
+    border-bottom: 2px dashed $color-primary;
+
+    &__logo-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    &__logo {
+        max-height: 14.5rem;
+        cursor: pointer;
+    }
+
+    &__nav {
+
+        ul {
+            list-style-type: none;
+            margin: auto;
+            text-align: center;
+        }
+    }
+
+    &__menu-item {
+
+        display: inline-block;
+        padding: 2rem 1rem;
+
+        font-family: 'Antonio', sans-serif;
+        font-size: 1.8rem;
+        letter-spacing: 1.5px;
+
+        transition: all .3s;
+        
+        &:hover {
+            background-color: $color-primary-light;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 700;
+
+            &:link ,
+            &:visited {
+                color: $color-primary;
+            }
+            &:hover {
+                color: $color-gray;
+            }
+        }
+    }
+
+}

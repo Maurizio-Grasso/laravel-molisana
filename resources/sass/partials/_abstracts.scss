@@ -1,0 +1,17 @@
+// variables
+
+$color-primary          : #002d73;
+$color-primary-light    : #B3E5FC;
+$color-gray             : #808080;
+$color-white            : #fff;
+$color-black            : #000;
+
+// mixins
+
+@mixin clearfix {
+    &::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+}

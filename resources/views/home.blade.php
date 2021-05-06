@@ -3,7 +3,9 @@
 @section('title' , 'Home Page')
 
 @section('content')
-    <p>
-        Questa è la home page
-    </p>
+   
+    <div class="jumbotron">
+        <img src=" {{ asset('img/molisana-home.jpg')}} " alt="Pasta La Molisana">
+    </div>
+
 @endsection
