@@ -2,27 +2,24 @@
 
 @section('content')
     
-    @foreach ($paste as $pasta)
+    <div class="product-grid">
 
-    <div class="sigle-product">
+        @foreach ($paste as $pasta)
 
-        <ul>
-            <li><img src="{{ $pasta['src'] }}" alt=""></li>
-            <li><h2>{{ $pasta['titolo'] }}</h2></li>
-            <li>Tipo: {{ $pasta['tipo']}}</li>
-            <li>Tempo di Cottura: {{ $pasta['cottura']}}</li>
-            <li>Peso: {{ $pasta['peso']}} </li>
-            <li><p>{!! $pasta['descrizione'] !!}</p></li>
-        </ul>
+        <div class="single-product">
 
-    </div>
+            <img class="single-product__image" src="{{ $pasta['src'] }}" alt="">
+            <h2  class="single-product__title">{{ $pasta['titolo'] }}</h2>
 
-    {{-- <div class="product">
-        <span>{{ $pasta['titolo'] }}</span>
-    </div> --}}
+                {{-- <li>Tipo: {{ $pasta['tipo']}}</li> --}}
+                {{-- <li>Tempo di Cottura: {{ $pasta['cottura']}}</li> --}}
+                {{-- <li>Peso: {{ $pasta['peso']}} </li> --}}
+                {{-- <li><p>{!! $pasta['descrizione'] !!}</p></li> --}}
+            </ul>
 
-
+        </div>
         
-    @endforeach
-
+        @endforeach
+        
+    </div>
 @endsection

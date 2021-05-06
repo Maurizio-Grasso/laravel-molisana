@@ -1,0 +1,74 @@
+// Jumbotron
+
+.jumbotron {
+    width: 100%;
+
+    &__image {
+        max-width: 100%;
+    }
+}
+
+// Product Grid
+
+.product-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.single-product {
+    flex: 0 0 calc( (100% - 2rem) / 3);
+    position: relative;
+    transition: background-color .5s;
+    margin-bottom: 1rem;
+
+    
+    @include resp(md) {
+        flex-basis: calc((100% - 1rem) / 2);
+    }
+
+    @include resp(xs) {
+        flex-basis: 100%;
+    }
+
+    &:hover {
+        background-color: rgba($color-white , 0.65);
+    }
+
+    &__image {
+        width: 100%;
+        position: relative;
+        
+        z-index: -1;
+    }
+
+    &__title {
+        @include align-x-y;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s;
+        color: $color-primary;
+        font-size: 3rem;
+        z-index: 1;
+        font-weight: 300;
+        text-align: center;
+    }    
+
+    &:hover &__title {            
+        opacity: 1;
+        visibility: visible;
+        cursor: pointer;
+    }
+}
+
+// Utilities
+
+.huge-section {
+    padding: 30rem 0;
+}
+
+.text-center {
+    text-align: center;
+}

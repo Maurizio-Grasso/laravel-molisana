@@ -7,23 +7,25 @@
     <div class="footer__section-container">
 
         <div class="footer__section">
-            <h3>Lorem</h3>
+            <h3>pastificio</h3>
             <ul>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
+                <li>Il Pastificio</li>
+                <li>Grano decorticato a pietra</li>
+                <li>Il Molise c'è</li>
+                <li>Filiera Integrata</li>
+                <li>100 anni di pasta</li>
+                <li>Sartoria della pasta</li>
+                <li>Spachetto quadrato</li>
+                <li>Le Persone</li>
             </ul>
         </div>
         <div class="footer__section">
-            <h3>Lorem</h3>
+            <h3>collezione da chef</h3>
             <ul>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
+                <li>Collezione da chef</li>
+                <li>Grandi Cucine</li>
+                <li>Biologiche</li>
+                <li>Quadrate</li>
             </ul>
         </div>
 
@@ -44,23 +46,30 @@
         </div>
 
         <div class="footer__section">
-            <h3>Lorem</h3>
+            <h3>prodotti</h3>
             <ul>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
-                <li>Ipsum</li>
+                <li>Le Classiche</li>
+                <li>Le Integrali</li>
+                <li>Le Speciali</li>
+                <li>Le Biologiche</li>
+                <li>Le Gluten Free</li>
+                <li>Le Semole</li>
+                <li>Le Extra Lusso</li>
             </ul>
         </div>
 
         <div class="footer__section">
             <ul>
-                <li>dolet</li>
-                <li>dolet</li>
-                <li>dolet</li>
-                <li>dolet</li>
-                <li>dolet</li>
+                <li>» E-COMMERCE</li>
+                <li>» B2B</li>
+                <li>» COMUNICAZIONE</li>
+                <li>» SCARICA I CATALOGHI</li>
+                <li>» RASSEGNA STAMPA</li>
+                <li>» VIDEO</li>
+                <li>» CONTATTI</li>
+                <li>» LAVORA CON NOI</li>
+                <li>» CERTIFICAZIONI</li>
+                <li>» PRIVACY POLICY</li>
             </ul>
         </div>
 

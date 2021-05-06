@@ -8,11 +8,24 @@
     background-repeat: no-repeat;
 
     margin-top: 2rem;
+    border-top: 2px dashed $color-primary;
+    padding-top: 2rem;
+
     padding-bottom: 20rem;
+
+    @include resp(md) {
+        text-align: center;
+    }
 
     &__logo-box {
         width: calc(100% / 4);
         float: left;
+
+        @include resp(md) {
+         float: none; 
+         width: 100%;
+         margin-bottom: 2rem;
+        }
     }
 
     &__logo {
@@ -20,37 +33,55 @@
     }
 
     &__section-container {
+
         @include clearfix;
+
         width: calc(100% / 4 * 3);
         float: right;
 
+        
+        @include resp(md) {
+            float: none;   
+            width: 100%;
+        }
+        
     }
-
+    
     &__section {
         width: calc(100% / 3);
         float: left;
+        min-height: 350px;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        @include resp(md) {
+            width: calc( 100% / 3);
+        }
+
+        @include resp(xs) {
+        float: none;
+        width: 100%;
+        min-height: auto;
+
+        }
 
         h3 {
             font-size: 2.5rem;
             color: $color-primary;
             margin-bottom: 2rem;
+            text-transform: uppercase;
         }
 
-        ul {
-            
+        ul {            
             li {
-
                 list-style-type: none;
 
                 &:not(:last-child) {
                     margin-bottom: 1rem;
                 }
             }
-
         }
-
-
-
     }
-
 }
